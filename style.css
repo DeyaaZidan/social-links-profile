@@ -1,0 +1,70 @@
+body{
+    font-family: "Outfit", serif;  
+}
+.contener {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    
+
+}
+
+.contener .box {
+    width: 280px;
+    padding: 20px;
+    background:  hsl(0, 0%, 12%);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.contener .box .head img {
+    border-radius: 50%;
+    width: 100px;
+}
+.contener .box .head h2 {
+    margin: 5px 0;
+}
+.contener .box .head span {
+    /* margin: 10px 0; */
+    color: hsl(75, 94%, 57%);
+    font-size: .9em;
+
+}
+.contener .box .head p {
+    margin: 20px;
+    font-size: .8em;
+}
+
+.contener .box .bottoms {
+    display: flex;
+    flex-flow:column ;
+    
+}
+.contener .box .bottoms a {
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+
+    list-style: none;
+    text-decoration: none;
+    color: white;
+
+    transition: .1s linear;
+
+}
+
+.contener .box .bottoms a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    
+    
+}
+
+*::selection {
+   background-color: white;
+   color:hsl(0, 0%, 8%) ;
+}
